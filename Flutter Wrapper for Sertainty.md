@@ -27,7 +27,7 @@ For android it's easy. We can just add the plugin and use it without any additio
 
 ##### 3.Add SertaintyCore.framework as embedded framework to Framework, Libraries, and Embedded Content on XCode.
 
-![Screenshot 2021-01-19 at 21.12.46](./images/Screenshot 2021-01-19 at 21.12.46.png)
+![Screenshot 2021-01-19 at 21.12.46](https://github.com/tharukachampit/sertainty_flutter_docs/blob/main/images/Screenshot%202021-01-19%20at%2021.12.46.png)
 
 
 
@@ -41,7 +41,7 @@ Script:
 install_name_tool -change SertaintyCore.framework/SertaintyCore @executable_path/Frameworks/SertaintyCore.framework SertaintyCore $TARGET_BUILD_DIR/$TARGET_NAME.app $TARGET_NAME
 ```
 
-![Screenshot 2021-01-19 at 21.20.35](./images/Screenshot 2021-01-19 at 21.20.35.png)
+![Screenshot 2021-01-19 at 21.20.35](https://github.com/tharukachampit/sertainty_flutter_docs/blob/main/images/Screenshot%202021-01-19%20at%2021.20.35.png)
 
 
 
@@ -51,7 +51,7 @@ install_name_tool -change SertaintyCore.framework/SertaintyCore @executable_path
 
 > Fix: On XCode build settings add Validate workspace to ‘yes’
 
- ![Screenshot 2021-01-19 at 21.38.16](./images/Screenshot 2021-01-19 at 21.38.05.png)
+ ![Screenshot 2021-01-19 at 21.38.16](https://github.com/tharukachampit/sertainty_flutter_docs/blob/main/images/Screenshot%202021-01-19%20at%2021.38.16.png)
 
 
 
